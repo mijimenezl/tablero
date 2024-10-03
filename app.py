@@ -11,7 +11,7 @@ bg_color = '#000000'
 
 drawing_mode = st.sidebar.selectbox(
     "Drawing tool:",
-    ("freedraw", "line", "rect", "circle", "transform", "polygon", "point"),
+    ("freedraw", "line", "rect", "circle", "transform", "polygon",),
 )
 
 
