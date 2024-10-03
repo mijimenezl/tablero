@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_drawable_canvas import st_canvas
 
 st.set_page_config(page_title='Tablero', layout='wide')
 st.title('Reconocimiento dibujos a mano')
