@@ -5,7 +5,6 @@ st.set_page_config(page_title='Tablero', layout='wide')
 st.title('Reconocimiento dibujos a mano')
 
 
-drawing_mode = drawing_mode
 stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
 stroke_color = st.color_picker("Pick A Color", "#87CEEB")
 bg_color = '#000000'
@@ -21,6 +20,7 @@ canvas_result = st_canvas(
     stroke_width=stroke_width,
     stroke_color=stroke_color,
     background_color=bg_color,
+    drawing_mode=drawing_mode,
     height=300,
     width=1300,
     key="canvas",
