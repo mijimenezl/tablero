@@ -22,6 +22,6 @@ canvas_result = st_canvas(
     stroke_color=stroke_color,
     background_color=bg_color,
     height=200,
-    width=200,
+    width=500,
     key="canvas",
 )
